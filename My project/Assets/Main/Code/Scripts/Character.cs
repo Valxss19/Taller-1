@@ -11,9 +11,7 @@ public class Character : MonoBehaviour
     [SerializeField]
     private float fuerza;
     [SerializeField]
-    private Vector2 direccion2;
-    [SerializeField]
-    private float fuerza2;
+   
 
 
 
@@ -43,10 +41,10 @@ public class Character : MonoBehaviour
         else if (Input.GetKey(KeyCode.A))
         {
 
-            rb2d. AddForce(-direccion2 * -fuerza2);
-        }
+            Vector2 direccionInvertida = new Vector2(-direccion.x, direccion.y);
+            rb2d.AddForce(direccionInvertida * fuerza);
     }
-
+}
 }
         
 

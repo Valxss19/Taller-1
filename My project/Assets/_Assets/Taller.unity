@@ -20927,9 +20927,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rb2d: {fileID: 0}
   direccion: {x: 1, y: 1}
-  fuerza: 5
-  direccion2: {x: 1, y: 1}
-  fuerza2: 5
+  fuerza: 4
 --- !u!1 &2029679723
 GameObject:
   m_ObjectHideFlags: 0
