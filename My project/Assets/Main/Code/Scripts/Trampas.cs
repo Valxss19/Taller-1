@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Trampa : MonoBehaviour
+public class Trap : MonoBehaviour
 {
     public int daño = 1;
 
@@ -8,7 +8,8 @@ public class Trampa : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            LifeManager.instance.QuitarVida(daño);
+            Character ch = collision.GetComponent<Character>();
+            if (ch != null) ch.RestarVida(daño);
         }
     }
 }

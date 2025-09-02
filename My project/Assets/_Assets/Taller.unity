@@ -2322,7 +2322,7 @@ GameObject:
   - component: {fileID: 586833374}
   m_Layer: 0
   m_Name: Trampas
-  m_TagString: Untagged
+  m_TagString: Trampas
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21701,6 +21701,7 @@ MonoBehaviour:
   rb2d: {fileID: 0}
   direccion: {x: 1, y: 1}
   fuerza: 4
+  vidaMax: 3
 --- !u!1 &1982861521
 GameObject:
   m_ObjectHideFlags: 0
@@ -22228,6 +22229,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 6176787615481303844, guid: a3879484d58e7e84aae7907b2f321e29, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 6582747259845169099, guid: a3879484d58e7e84aae7907b2f321e29, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.49
@@ -22340,6 +22345,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5250615880562615903, guid: 839735983f5cbfe449f4f036fd830cbb, type: 3}
       propertyPath: m_Name
+      value: Vida
+      objectReference: {fileID: 0}
+    - target: {fileID: 5250615880562615903, guid: 839735983f5cbfe449f4f036fd830cbb, type: 3}
+      propertyPath: m_TagString
       value: Vida
       objectReference: {fileID: 0}
     m_RemovedComponents: []

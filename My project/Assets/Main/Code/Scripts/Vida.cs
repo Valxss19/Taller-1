@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Vida : MonoBehaviour
+public class OrangeChicken : MonoBehaviour
 {
     public int vidaExtra = 1;
 
@@ -8,7 +8,8 @@ public class Vida : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            LifeManager.instance.AgregarVida(vidaExtra);
+            Character ch = collision.GetComponent<Character>();
+            if (ch != null) ch.SumarVida(vidaExtra);
             Destroy(gameObject);
         }
     }
