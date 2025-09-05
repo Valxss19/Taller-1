@@ -9,6 +9,7 @@ TagManager:
   - Trampas
   - Llave
   - Puerta
+  - Tiempo
   layers:
   - Default
   - TransparentFX
