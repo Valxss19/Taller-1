@@ -1,38 +1,13 @@
-
-
 using UnityEngine;
-using TMPro;
 
 public class Hueso : MonoBehaviour
 {
-    public int puntos = 0; // contador de huesos
-    public TextMeshProUGUI puntosTexto; // texto en la UI
-    public GameObject obstaculo; // obstáculo que bloquea la llave
-
-    private void Start()
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        ActualizarUI();
-    }
-
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.CompareTag("Hueso"))
+        if (other.CompareTag("Player"))
         {
-            puntos += 1;
-            Destroy(collision.gameObject);
-            ActualizarUI();
-
-            if (puntos >= 10 && obstaculo != null)
-            {
-                Destroy(obstaculo);
-            }
+            FindObjectOfType<GameManager>().SumarPunto(); // Suma +1
+            Destroy(gameObject); // El hueso desaparece
         }
     }
-
-    void ActualizarUI()
-    {
-        puntosTexto.text = "Puntos: " + puntos.ToString();
-    }
 }
-
-
