@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class Trampa : MonoBehaviour
 {
-    [SerializeField] private int daño = 1; // Cuánto resta la trampa
+    [SerializeField] private int daño = 1;
 
     private void OnTriggerEnter2D(Collider2D other)
     {
