@@ -3,31 +3,30 @@ using TMPro;
 
 public class UIManager : MonoBehaviour
 {
-    [Header("Referencias TextMeshPro")]
-    [SerializeField] private TextMeshProUGUI textoTiempo;
-    [SerializeField] private TextMeshProUGUI textoVida;
-    [SerializeField] private TextMeshProUGUI textoPuntos;
-    [SerializeField] private TextMeshProUGUI textoLlave;
-
-    private GameManager gameManager;
-
-    private void Start()
-    {
-        gameManager = FindFirstObjectByType<GameManager>();
-    }
+    [Header("Referencias UI")]
+    [SerializeField] private TMP_Text textoTiempo;
+    [SerializeField] private TMP_Text textoVida;
+    [SerializeField] private TMP_Text textoPuntos;
+    [SerializeField] private TMP_Text textoLlave;
 
     private void Update()
     {
+        if (GameManager.Instance == null) return;
+
         // Tiempo
-        textoTiempo.text = "Tiempo: " + Mathf.CeilToInt(gameManager.GetTiempo());
+        if (textoTiempo != null)
+            textoTiempo.text = "Tiempo: " + Mathf.CeilToInt(GameManager.Instance.GetTiempo());
 
         // Vida
-        textoVida.text = "Vida: " + gameManager.GetVida();
+        if (textoVida != null)
+            textoVida.text = "Vida: " + GameManager.Instance.GetVida();
 
         // Puntos
-        textoPuntos.text = "Puntos: " + gameManager.GetPuntos();
+        if (textoPuntos != null)
+            textoPuntos.text = "Puntos: " + GameManager.Instance.GetPuntos();
 
         // Llave
-        textoLlave.text = gameManager.TieneLlave() ? "Llave: ✔" : "Llave: ✘";
+        if (textoLlave != null)
+            textoLlave.text = GameManager.Instance.TieneLlave() ? "Llave: ✔" : "Llave: ✘";
     }
 }

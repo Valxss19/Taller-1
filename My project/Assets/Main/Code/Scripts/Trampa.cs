@@ -2,13 +2,14 @@ using UnityEngine;
 
 public class Trampa : MonoBehaviour
 {
-    public int daño = 1; // cuánto resta
+    [SerializeField] private int daño = 1; // Cuánto resta la trampa
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        if (collision.CompareTag("Player"))
+        if (other.CompareTag("Player"))
         {
-            FindFirstObjectByType<GameManager>().RestarVida(daño);
+            GameManager.Instance.RestarVida(daño);
+            Debug.Log("El jugador cayó en una trampa");
         }
     }
 }
