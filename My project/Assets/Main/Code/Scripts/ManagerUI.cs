@@ -27,6 +27,6 @@ public class UIManager : MonoBehaviour
 
         // Llave
         if (textoLlave != null)
-            textoLlave.text = GameManager.Instance.TieneLlave() ? "Llave: ✔" : "Llave: ✘";
+            textoLlave.text = GameManager.Instance.TieneLlave() ? "Llave:" : "Llave:";
     }
 }

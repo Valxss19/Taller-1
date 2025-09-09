@@ -132,7 +132,6 @@ GameObject:
   - component: {fileID: 5332193}
   - component: {fileID: 5332192}
   - component: {fileID: 5332191}
-  - component: {fileID: 5332195}
   - component: {fileID: 5332190}
   m_Layer: 0
   m_Name: Trampas (23)
@@ -671,19 +670,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!114 &5332195
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5332188}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0530125f2509a443180c3208cae5d16b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  "da\xF1o": 1
 --- !u!1001 &7840890
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1468,7 +1454,6 @@ GameObject:
   - component: {fileID: 64521413}
   - component: {fileID: 64521412}
   - component: {fileID: 64521411}
-  - component: {fileID: 64521414}
   - component: {fileID: 64521410}
   - component: {fileID: 64521409}
   m_Layer: 0
@@ -2008,19 +1993,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!114 &64521414
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 64521407}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0530125f2509a443180c3208cae5d16b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  "da\xF1o": 1
 --- !u!1 &64917173
 GameObject:
   m_ObjectHideFlags: 0
@@ -2034,7 +2006,6 @@ GameObject:
   - component: {fileID: 64917178}
   - component: {fileID: 64917177}
   - component: {fileID: 64917176}
-  - component: {fileID: 64917180}
   - component: {fileID: 64917175}
   m_Layer: 0
   m_Name: Trampas (49)
@@ -2573,19 +2544,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!114 &64917180
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 64917173}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0530125f2509a443180c3208cae5d16b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  "da\xF1o": 1
 --- !u!1 &69048814
 GameObject:
   m_ObjectHideFlags: 0
@@ -2990,7 +2948,6 @@ GameObject:
   - component: {fileID: 97706595}
   - component: {fileID: 97706594}
   - component: {fileID: 97706593}
-  - component: {fileID: 97706597}
   - component: {fileID: 97706592}
   m_Layer: 0
   m_Name: Trampas (20)
@@ -3529,19 +3486,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!114 &97706597
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 97706590}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0530125f2509a443180c3208cae5d16b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  "da\xF1o": 1
 --- !u!1001 &120401492
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3680,7 +3624,6 @@ GameObject:
   - component: {fileID: 133274003}
   - component: {fileID: 133274002}
   - component: {fileID: 133274001}
-  - component: {fileID: 133274005}
   - component: {fileID: 133274000}
   m_Layer: 0
   m_Name: Trampas (29)
@@ -4219,19 +4162,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!114 &133274005
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 133273998}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0530125f2509a443180c3208cae5d16b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  "da\xF1o": 1
 --- !u!1 &145584097
 GameObject:
   m_ObjectHideFlags: 0
@@ -4332,7 +4262,6 @@ GameObject:
   - component: {fileID: 178239761}
   - component: {fileID: 178239760}
   - component: {fileID: 178239759}
-  - component: {fileID: 178239763}
   - component: {fileID: 178239758}
   m_Layer: 0
   m_Name: Trampas (17)
@@ -4871,19 +4800,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!114 &178239763
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 178239756}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0530125f2509a443180c3208cae5d16b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  "da\xF1o": 1
 --- !u!1 &189430746
 GameObject:
   m_ObjectHideFlags: 0
@@ -4984,7 +4900,6 @@ GameObject:
   - component: {fileID: 191338972}
   - component: {fileID: 191338971}
   - component: {fileID: 191338970}
-  - component: {fileID: 191338974}
   - component: {fileID: 191338969}
   m_Layer: 0
   m_Name: Trampas (26)
@@ -5523,19 +5438,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!114 &191338974
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 191338967}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0530125f2509a443180c3208cae5d16b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  "da\xF1o": 1
 --- !u!1 &215091805
 GameObject:
   m_ObjectHideFlags: 0
@@ -5636,7 +5538,6 @@ GameObject:
   - component: {fileID: 217656891}
   - component: {fileID: 217656890}
   - component: {fileID: 217656889}
-  - component: {fileID: 217656893}
   - component: {fileID: 217656888}
   m_Layer: 0
   m_Name: Trampas (55)
@@ -6175,19 +6076,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!114 &217656893
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 217656886}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0530125f2509a443180c3208cae5d16b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  "da\xF1o": 1
 --- !u!1001 &231794246
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7210,7 +7098,6 @@ GameObject:
   - component: {fileID: 402496066}
   - component: {fileID: 402496065}
   - component: {fileID: 402496064}
-  - component: {fileID: 402496068}
   - component: {fileID: 402496063}
   m_Layer: 0
   m_Name: Trampas (35)
@@ -7749,19 +7636,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!114 &402496068
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 402496061}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0530125f2509a443180c3208cae5d16b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  "da\xF1o": 1
 --- !u!1 &415565401
 GameObject:
   m_ObjectHideFlags: 0
@@ -7913,7 +7787,6 @@ GameObject:
   - component: {fileID: 416119320}
   - component: {fileID: 416119319}
   - component: {fileID: 416119318}
-  - component: {fileID: 416119322}
   - component: {fileID: 416119317}
   m_Layer: 0
   m_Name: Trampas (25)
@@ -8452,19 +8325,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!114 &416119322
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 416119315}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0530125f2509a443180c3208cae5d16b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  "da\xF1o": 1
 --- !u!1001 &418411295
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8604,7 +8464,6 @@ GameObject:
   - component: {fileID: 434980300}
   - component: {fileID: 434980299}
   - component: {fileID: 434980298}
-  - component: {fileID: 434980302}
   - component: {fileID: 434980297}
   m_Layer: 0
   m_Name: Trampas (48)
@@ -9143,19 +9002,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!114 &434980302
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 434980295}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0530125f2509a443180c3208cae5d16b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  "da\xF1o": 1
 --- !u!1001 &488692352
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9294,7 +9140,6 @@ GameObject:
   - component: {fileID: 490774412}
   - component: {fileID: 490774411}
   - component: {fileID: 490774410}
-  - component: {fileID: 490774414}
   - component: {fileID: 490774409}
   m_Layer: 0
   m_Name: Trampas (36)
@@ -9833,19 +9678,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!114 &490774414
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 490774407}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0530125f2509a443180c3208cae5d16b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  "da\xF1o": 1
 --- !u!1 &509110480
 GameObject:
   m_ObjectHideFlags: 0
@@ -10418,7 +10250,6 @@ GameObject:
   - component: {fileID: 573124839}
   - component: {fileID: 573124838}
   - component: {fileID: 573124837}
-  - component: {fileID: 573124841}
   - component: {fileID: 573124836}
   m_Layer: 0
   m_Name: Trampas (52)
@@ -10957,19 +10788,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!114 &573124841
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 573124834}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0530125f2509a443180c3208cae5d16b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  "da\xF1o": 1
 --- !u!1 &575792774
 GameObject:
   m_ObjectHideFlags: 0
@@ -11635,7 +11453,6 @@ GameObject:
   - component: {fileID: 593322988}
   - component: {fileID: 593322987}
   - component: {fileID: 593322986}
-  - component: {fileID: 593322990}
   - component: {fileID: 593322985}
   m_Layer: 0
   m_Name: Trampas (45)
@@ -12174,19 +11991,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!114 &593322990
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 593322983}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0530125f2509a443180c3208cae5d16b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  "da\xF1o": 1
 --- !u!1 &597375709
 GameObject:
   m_ObjectHideFlags: 0
@@ -12200,7 +12004,6 @@ GameObject:
   - component: {fileID: 597375714}
   - component: {fileID: 597375713}
   - component: {fileID: 597375712}
-  - component: {fileID: 597375716}
   - component: {fileID: 597375711}
   m_Layer: 0
   m_Name: Trampas (33)
@@ -12739,19 +12542,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!114 &597375716
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 597375709}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0530125f2509a443180c3208cae5d16b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  "da\xF1o": 1
 --- !u!1 &603444600
 GameObject:
   m_ObjectHideFlags: 0
@@ -13270,7 +13060,6 @@ GameObject:
   - component: {fileID: 673533878}
   - component: {fileID: 673533877}
   - component: {fileID: 673533876}
-  - component: {fileID: 673533880}
   - component: {fileID: 673533875}
   m_Layer: 0
   m_Name: Trampas (18)
@@ -13809,19 +13598,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!114 &673533880
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 673533873}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0530125f2509a443180c3208cae5d16b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  "da\xF1o": 1
 --- !u!1 &675529525
 GameObject:
   m_ObjectHideFlags: 0
@@ -13835,7 +13611,6 @@ GameObject:
   - component: {fileID: 675529530}
   - component: {fileID: 675529529}
   - component: {fileID: 675529528}
-  - component: {fileID: 675529532}
   - component: {fileID: 675529527}
   m_Layer: 0
   m_Name: Trampas (34)
@@ -14374,19 +14149,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!114 &675529532
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 675529525}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0530125f2509a443180c3208cae5d16b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  "da\xF1o": 1
 --- !u!1 &682638062
 GameObject:
   m_ObjectHideFlags: 0
@@ -14834,7 +14596,6 @@ GameObject:
   - component: {fileID: 698283156}
   - component: {fileID: 698283155}
   - component: {fileID: 698283154}
-  - component: {fileID: 698283157}
   - component: {fileID: 698283153}
   - component: {fileID: 698283152}
   m_Layer: 0
@@ -15374,19 +15135,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!114 &698283157
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 698283150}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0530125f2509a443180c3208cae5d16b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  "da\xF1o": 1
 --- !u!1 &703021662
 GameObject:
   m_ObjectHideFlags: 0
@@ -15400,7 +15148,6 @@ GameObject:
   - component: {fileID: 703021667}
   - component: {fileID: 703021666}
   - component: {fileID: 703021665}
-  - component: {fileID: 703021669}
   - component: {fileID: 703021664}
   m_Layer: 0
   m_Name: Trampas (41)
@@ -15939,19 +15686,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!114 &703021669
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 703021662}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0530125f2509a443180c3208cae5d16b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  "da\xF1o": 1
 --- !u!1 &742927205
 GameObject:
   m_ObjectHideFlags: 0
@@ -15965,7 +15699,6 @@ GameObject:
   - component: {fileID: 742927210}
   - component: {fileID: 742927209}
   - component: {fileID: 742927208}
-  - component: {fileID: 742927212}
   - component: {fileID: 742927207}
   m_Layer: 0
   m_Name: Trampas (10)
@@ -16504,19 +16237,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!114 &742927212
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 742927205}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0530125f2509a443180c3208cae5d16b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  "da\xF1o": 1
 --- !u!1 &768425373
 GameObject:
   m_ObjectHideFlags: 0
@@ -16755,7 +16475,6 @@ GameObject:
   - component: {fileID: 821918023}
   - component: {fileID: 821918022}
   - component: {fileID: 821918021}
-  - component: {fileID: 821918025}
   - component: {fileID: 821918020}
   m_Layer: 0
   m_Name: Trampas (32)
@@ -17294,19 +17013,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!114 &821918025
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 821918018}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0530125f2509a443180c3208cae5d16b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  "da\xF1o": 1
 --- !u!1 &834829138
 GameObject:
   m_ObjectHideFlags: 0
@@ -17320,7 +17026,6 @@ GameObject:
   - component: {fileID: 834829143}
   - component: {fileID: 834829142}
   - component: {fileID: 834829141}
-  - component: {fileID: 834829145}
   - component: {fileID: 834829140}
   m_Layer: 0
   m_Name: Trampas (50)
@@ -17859,19 +17564,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!114 &834829145
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 834829138}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0530125f2509a443180c3208cae5d16b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  "da\xF1o": 1
 --- !u!1 &843342978
 GameObject:
   m_ObjectHideFlags: 0
@@ -17885,7 +17577,6 @@ GameObject:
   - component: {fileID: 843342983}
   - component: {fileID: 843342982}
   - component: {fileID: 843342981}
-  - component: {fileID: 843342985}
   - component: {fileID: 843342980}
   m_Layer: 0
   m_Name: Trampas (22)
@@ -18424,19 +18115,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!114 &843342985
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 843342978}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0530125f2509a443180c3208cae5d16b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  "da\xF1o": 1
 --- !u!1 &846913373
 GameObject:
   m_ObjectHideFlags: 0
@@ -18664,7 +18342,6 @@ GameObject:
   - component: {fileID: 877239254}
   - component: {fileID: 877239253}
   - component: {fileID: 877239252}
-  - component: {fileID: 877239255}
   - component: {fileID: 877239251}
   - component: {fileID: 877239250}
   m_Layer: 0
@@ -19204,19 +18881,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!114 &877239255
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 877239248}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0530125f2509a443180c3208cae5d16b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  "da\xF1o": 1
 --- !u!1 &903905240
 GameObject:
   m_ObjectHideFlags: 0
@@ -19230,7 +18894,6 @@ GameObject:
   - component: {fileID: 903905245}
   - component: {fileID: 903905244}
   - component: {fileID: 903905243}
-  - component: {fileID: 903905247}
   - component: {fileID: 903905242}
   m_Layer: 0
   m_Name: Trampas (12)
@@ -19769,19 +19432,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!114 &903905247
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 903905240}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0530125f2509a443180c3208cae5d16b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  "da\xF1o": 1
 --- !u!1 &904312230
 GameObject:
   m_ObjectHideFlags: 0
@@ -19882,7 +19532,6 @@ GameObject:
   - component: {fileID: 904934251}
   - component: {fileID: 904934250}
   - component: {fileID: 904934249}
-  - component: {fileID: 904934253}
   - component: {fileID: 904934248}
   m_Layer: 0
   m_Name: Trampas (9)
@@ -20421,19 +20070,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!114 &904934253
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 904934246}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0530125f2509a443180c3208cae5d16b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  "da\xF1o": 1
 --- !u!1 &912000388
 GameObject:
   m_ObjectHideFlags: 0
@@ -20447,7 +20083,6 @@ GameObject:
   - component: {fileID: 912000393}
   - component: {fileID: 912000392}
   - component: {fileID: 912000391}
-  - component: {fileID: 912000395}
   - component: {fileID: 912000390}
   m_Layer: 0
   m_Name: Trampas (54)
@@ -20986,19 +20621,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!114 &912000395
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 912000388}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0530125f2509a443180c3208cae5d16b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  "da\xF1o": 1
 --- !u!1 &921516205
 GameObject:
   m_ObjectHideFlags: 0
@@ -21011,7 +20633,6 @@ GameObject:
   - component: {fileID: 921516211}
   - component: {fileID: 921516210}
   - component: {fileID: 921516209}
-  - component: {fileID: 921516212}
   - component: {fileID: 921516208}
   - component: {fileID: 921516207}
   m_Layer: 0
@@ -21551,19 +21172,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!114 &921516212
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 921516205}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0530125f2509a443180c3208cae5d16b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  "da\xF1o": 1
 --- !u!1 &923082021
 GameObject:
   m_ObjectHideFlags: 0
@@ -21576,7 +21184,6 @@ GameObject:
   - component: {fileID: 923082027}
   - component: {fileID: 923082026}
   - component: {fileID: 923082025}
-  - component: {fileID: 923082028}
   - component: {fileID: 923082024}
   - component: {fileID: 923082023}
   m_Layer: 0
@@ -22116,19 +21723,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!114 &923082028
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 923082021}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0530125f2509a443180c3208cae5d16b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  "da\xF1o": 1
 --- !u!1 &927789741
 GameObject:
   m_ObjectHideFlags: 0
@@ -22229,7 +21823,6 @@ GameObject:
   - component: {fileID: 940884637}
   - component: {fileID: 940884636}
   - component: {fileID: 940884635}
-  - component: {fileID: 940884639}
   - component: {fileID: 940884634}
   m_Layer: 0
   m_Name: Trampas (39)
@@ -22768,19 +22361,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!114 &940884639
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 940884632}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0530125f2509a443180c3208cae5d16b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  "da\xF1o": 1
 --- !u!1 &969188979
 GameObject:
   m_ObjectHideFlags: 0
@@ -22881,7 +22461,6 @@ GameObject:
   - component: {fileID: 974172722}
   - component: {fileID: 974172721}
   - component: {fileID: 974172720}
-  - component: {fileID: 974172724}
   - component: {fileID: 974172719}
   m_Layer: 0
   m_Name: Trampas (43)
@@ -23420,19 +22999,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!114 &974172724
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 974172717}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0530125f2509a443180c3208cae5d16b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  "da\xF1o": 1
 --- !u!1 &983414962
 GameObject:
   m_ObjectHideFlags: 0
@@ -23967,7 +23533,6 @@ GameObject:
   - component: {fileID: 1027902651}
   - component: {fileID: 1027902650}
   - component: {fileID: 1027902649}
-  - component: {fileID: 1027902653}
   - component: {fileID: 1027902648}
   m_Layer: 0
   m_Name: Trampas (13)
@@ -24506,19 +24071,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!114 &1027902653
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1027902646}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0530125f2509a443180c3208cae5d16b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  "da\xF1o": 1
 --- !u!1001 &1063986423
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25102,7 +24654,6 @@ GameObject:
   - component: {fileID: 1134879769}
   - component: {fileID: 1134879768}
   - component: {fileID: 1134879767}
-  - component: {fileID: 1134879771}
   - component: {fileID: 1134879766}
   m_Layer: 0
   m_Name: Trampas (57)
@@ -25641,19 +25192,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!114 &1134879771
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1134879764}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0530125f2509a443180c3208cae5d16b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  "da\xF1o": 1
 --- !u!1 &1150448311 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5250615880562615903, guid: 839735983f5cbfe449f4f036fd830cbb, type: 3}
@@ -26025,7 +25563,6 @@ GameObject:
   - component: {fileID: 1176883072}
   - component: {fileID: 1176883071}
   - component: {fileID: 1176883070}
-  - component: {fileID: 1176883074}
   - component: {fileID: 1176883069}
   m_Layer: 0
   m_Name: Trampas (27)
@@ -26564,19 +26101,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!114 &1176883074
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1176883067}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0530125f2509a443180c3208cae5d16b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  "da\xF1o": 1
 --- !u!1 &1236556637
 GameObject:
   m_ObjectHideFlags: 0
@@ -26677,7 +26201,6 @@ GameObject:
   - component: {fileID: 1261056279}
   - component: {fileID: 1261056278}
   - component: {fileID: 1261056277}
-  - component: {fileID: 1261056281}
   - component: {fileID: 1261056276}
   m_Layer: 0
   m_Name: Trampas (31)
@@ -27216,19 +26739,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!114 &1261056281
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1261056274}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0530125f2509a443180c3208cae5d16b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  "da\xF1o": 1
 --- !u!1 &1266301547
 GameObject:
   m_ObjectHideFlags: 0
@@ -27242,7 +26752,6 @@ GameObject:
   - component: {fileID: 1266301552}
   - component: {fileID: 1266301551}
   - component: {fileID: 1266301550}
-  - component: {fileID: 1266301554}
   - component: {fileID: 1266301549}
   m_Layer: 0
   m_Name: Trampas (38)
@@ -27781,19 +27290,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!114 &1266301554
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1266301547}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0530125f2509a443180c3208cae5d16b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  "da\xF1o": 1
 --- !u!1 &1285557260 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4842683974733824881, guid: c2db404d63bafda40b5364ba0aaebc90, type: 3}
@@ -27884,7 +27380,6 @@ GameObject:
   - component: {fileID: 1294263925}
   - component: {fileID: 1294263924}
   - component: {fileID: 1294263923}
-  - component: {fileID: 1294263927}
   - component: {fileID: 1294263922}
   m_Layer: 0
   m_Name: Trampas (47)
@@ -28423,19 +27918,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!114 &1294263927
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1294263920}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0530125f2509a443180c3208cae5d16b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  "da\xF1o": 1
 --- !u!1 &1299108720
 GameObject:
   m_ObjectHideFlags: 0
@@ -28449,7 +27931,6 @@ GameObject:
   - component: {fileID: 1299108725}
   - component: {fileID: 1299108724}
   - component: {fileID: 1299108723}
-  - component: {fileID: 1299108727}
   - component: {fileID: 1299108722}
   m_Layer: 0
   m_Name: Trampas (24)
@@ -28988,19 +28469,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!114 &1299108727
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1299108720}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0530125f2509a443180c3208cae5d16b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  "da\xF1o": 1
 --- !u!1 &1306086255
 GameObject:
   m_ObjectHideFlags: 0
@@ -29101,7 +28569,6 @@ GameObject:
   - component: {fileID: 1328825776}
   - component: {fileID: 1328825775}
   - component: {fileID: 1328825774}
-  - component: {fileID: 1328825778}
   - component: {fileID: 1328825773}
   m_Layer: 0
   m_Name: Trampas (40)
@@ -29640,19 +29107,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!114 &1328825778
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1328825771}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0530125f2509a443180c3208cae5d16b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  "da\xF1o": 1
 --- !u!1 &1349376310
 GameObject:
   m_ObjectHideFlags: 0
@@ -29666,7 +29120,6 @@ GameObject:
   - component: {fileID: 1349376315}
   - component: {fileID: 1349376314}
   - component: {fileID: 1349376313}
-  - component: {fileID: 1349376317}
   - component: {fileID: 1349376312}
   m_Layer: 0
   m_Name: Trampas (44)
@@ -30205,19 +29658,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!114 &1349376317
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1349376310}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0530125f2509a443180c3208cae5d16b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  "da\xF1o": 1
 --- !u!1 &1379717919
 GameObject:
   m_ObjectHideFlags: 0
@@ -30231,7 +29671,6 @@ GameObject:
   - component: {fileID: 1379717924}
   - component: {fileID: 1379717923}
   - component: {fileID: 1379717922}
-  - component: {fileID: 1379717926}
   - component: {fileID: 1379717921}
   m_Layer: 0
   m_Name: Trampas (53)
@@ -30770,19 +30209,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!114 &1379717926
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1379717919}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0530125f2509a443180c3208cae5d16b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  "da\xF1o": 1
 --- !u!1 &1406336950
 GameObject:
   m_ObjectHideFlags: 0
@@ -30883,7 +30309,6 @@ GameObject:
   - component: {fileID: 1409414393}
   - component: {fileID: 1409414392}
   - component: {fileID: 1409414391}
-  - component: {fileID: 1409414395}
   - component: {fileID: 1409414390}
   m_Layer: 0
   m_Name: Trampas (46)
@@ -31422,19 +30847,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!114 &1409414395
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1409414388}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0530125f2509a443180c3208cae5d16b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  "da\xF1o": 1
 --- !u!1 &1437781389
 GameObject:
   m_ObjectHideFlags: 0
@@ -31960,7 +31372,6 @@ GameObject:
   - component: {fileID: 1518017449}
   - component: {fileID: 1518017448}
   - component: {fileID: 1518017447}
-  - component: {fileID: 1518017450}
   - component: {fileID: 1518017446}
   - component: {fileID: 1518017445}
   m_Layer: 0
@@ -32500,19 +31911,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!114 &1518017450
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1518017443}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0530125f2509a443180c3208cae5d16b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  "da\xF1o": 1
 --- !u!1 &1525824422
 GameObject:
   m_ObjectHideFlags: 0
@@ -32526,7 +31924,6 @@ GameObject:
   - component: {fileID: 1525824427}
   - component: {fileID: 1525824426}
   - component: {fileID: 1525824425}
-  - component: {fileID: 1525824429}
   - component: {fileID: 1525824424}
   m_Layer: 0
   m_Name: Trampas (21)
@@ -33065,19 +32462,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!114 &1525824429
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1525824422}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0530125f2509a443180c3208cae5d16b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  "da\xF1o": 1
 --- !u!1 &1532853085
 GameObject:
   m_ObjectHideFlags: 0
@@ -33370,7 +32754,6 @@ GameObject:
   - component: {fileID: 1553848160}
   - component: {fileID: 1553848159}
   - component: {fileID: 1553848158}
-  - component: {fileID: 1553848162}
   - component: {fileID: 1553848157}
   m_Layer: 0
   m_Name: Trampas (28)
@@ -33909,19 +33292,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!114 &1553848162
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1553848155}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0530125f2509a443180c3208cae5d16b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  "da\xF1o": 1
 --- !u!1 &1561515400
 GameObject:
   m_ObjectHideFlags: 0
@@ -34081,7 +33451,6 @@ GameObject:
   - component: {fileID: 1605200006}
   - component: {fileID: 1605200005}
   - component: {fileID: 1605200004}
-  - component: {fileID: 1605200008}
   - component: {fileID: 1605200003}
   m_Layer: 0
   m_Name: Trampas (11)
@@ -34620,19 +33989,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!114 &1605200008
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1605200001}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0530125f2509a443180c3208cae5d16b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  "da\xF1o": 1
 --- !u!1 &1627564181
 GameObject:
   m_ObjectHideFlags: 0
@@ -34733,7 +34089,6 @@ GameObject:
   - component: {fileID: 1634555860}
   - component: {fileID: 1634555859}
   - component: {fileID: 1634555858}
-  - component: {fileID: 1634555862}
   - component: {fileID: 1634555857}
   m_Layer: 0
   m_Name: Trampas (42)
@@ -35272,19 +34627,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!114 &1634555862
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1634555855}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0530125f2509a443180c3208cae5d16b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  "da\xF1o": 1
 --- !u!1 &1651508798
 GameObject:
   m_ObjectHideFlags: 0
@@ -35818,7 +35160,6 @@ GameObject:
   - component: {fileID: 1733406424}
   - component: {fileID: 1733406423}
   - component: {fileID: 1733406422}
-  - component: {fileID: 1733406426}
   - component: {fileID: 1733406421}
   m_Layer: 0
   m_Name: Trampas (15)
@@ -36357,19 +35698,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!114 &1733406426
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1733406419}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0530125f2509a443180c3208cae5d16b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  "da\xF1o": 1
 --- !u!1 &1743008271
 GameObject:
   m_ObjectHideFlags: 0
@@ -36383,7 +35711,6 @@ GameObject:
   - component: {fileID: 1743008276}
   - component: {fileID: 1743008275}
   - component: {fileID: 1743008274}
-  - component: {fileID: 1743008278}
   - component: {fileID: 1743008273}
   m_Layer: 0
   m_Name: Trampas (51)
@@ -36922,19 +36249,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!114 &1743008278
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1743008271}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0530125f2509a443180c3208cae5d16b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  "da\xF1o": 1
 --- !u!1 &1743778834
 GameObject:
   m_ObjectHideFlags: 0
@@ -37470,7 +36784,6 @@ GameObject:
   - component: {fileID: 1844230163}
   - component: {fileID: 1844230162}
   - component: {fileID: 1844230161}
-  - component: {fileID: 1844230165}
   - component: {fileID: 1844230160}
   m_Layer: 0
   m_Name: Trampas (16)
@@ -38009,19 +37322,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!114 &1844230165
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1844230158}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0530125f2509a443180c3208cae5d16b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  "da\xF1o": 1
 --- !u!1 &1847879817
 GameObject:
   m_ObjectHideFlags: 0
@@ -38034,7 +37334,6 @@ GameObject:
   - component: {fileID: 1847879823}
   - component: {fileID: 1847879822}
   - component: {fileID: 1847879821}
-  - component: {fileID: 1847879824}
   - component: {fileID: 1847879820}
   - component: {fileID: 1847879819}
   m_Layer: 0
@@ -38574,19 +37873,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!114 &1847879824
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1847879817}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0530125f2509a443180c3208cae5d16b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  "da\xF1o": 1
 --- !u!1 &1855417382
 GameObject:
   m_ObjectHideFlags: 0
@@ -38600,7 +37886,6 @@ GameObject:
   - component: {fileID: 1855417387}
   - component: {fileID: 1855417386}
   - component: {fileID: 1855417385}
-  - component: {fileID: 1855417389}
   - component: {fileID: 1855417384}
   m_Layer: 0
   m_Name: Trampas (19)
@@ -39139,19 +38424,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!114 &1855417389
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1855417382}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0530125f2509a443180c3208cae5d16b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  "da\xF1o": 1
 --- !u!1001 &1863262729
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -39290,7 +38562,6 @@ GameObject:
   - component: {fileID: 1890882860}
   - component: {fileID: 1890882859}
   - component: {fileID: 1890882858}
-  - component: {fileID: 1890882862}
   - component: {fileID: 1890882857}
   m_Layer: 0
   m_Name: Trampas (37)
@@ -39829,19 +39100,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!114 &1890882862
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1890882855}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0530125f2509a443180c3208cae5d16b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  "da\xF1o": 1
 --- !u!1 &1893870822
 GameObject:
   m_ObjectHideFlags: 0
@@ -54817,7 +54075,6 @@ GameObject:
   - component: {fileID: 1962982587}
   - component: {fileID: 1962982586}
   - component: {fileID: 1962982585}
-  - component: {fileID: 1962982589}
   - component: {fileID: 1962982584}
   m_Layer: 0
   m_Name: Trampas (56)
@@ -55356,19 +54613,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!114 &1962982589
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1962982582}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0530125f2509a443180c3208cae5d16b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  "da\xF1o": 1
 --- !u!1 &1972109195 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6176787615481303844, guid: a3879484d58e7e84aae7907b2f321e29, type: 3}
@@ -55429,7 +54673,6 @@ GameObject:
   - component: {fileID: 1990239956}
   - component: {fileID: 1990239955}
   - component: {fileID: 1990239954}
-  - component: {fileID: 1990239958}
   - component: {fileID: 1990239953}
   m_Layer: 0
   m_Name: Trampas (14)
@@ -55968,19 +55211,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!114 &1990239958
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1990239951}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0530125f2509a443180c3208cae5d16b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  "da\xF1o": 1
 --- !u!1 &2029679723
 GameObject:
   m_ObjectHideFlags: 0
@@ -56082,7 +55312,6 @@ GameObject:
   - component: {fileID: 2045042164}
   - component: {fileID: 2045042163}
   - component: {fileID: 2045042162}
-  - component: {fileID: 2045042167}
   m_Layer: 0
   m_Name: Trampas (1)
   m_TagString: Trampas
@@ -56676,19 +55905,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!114 &2045042167
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2045042160}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0530125f2509a443180c3208cae5d16b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  "da\xF1o": 1
 --- !u!1 &2052148399
 GameObject:
   m_ObjectHideFlags: 0
@@ -56789,7 +56005,6 @@ GameObject:
   - component: {fileID: 2101741870}
   - component: {fileID: 2101741869}
   - component: {fileID: 2101741868}
-  - component: {fileID: 2101741872}
   - component: {fileID: 2101741867}
   m_Layer: 0
   m_Name: Trampas (30)
@@ -57328,19 +56543,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!114 &2101741872
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2101741865}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0530125f2509a443180c3208cae5d16b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  "da\xF1o": 1
 --- !u!1001 &2127762510
 PrefabInstance:
   m_ObjectHideFlags: 0
