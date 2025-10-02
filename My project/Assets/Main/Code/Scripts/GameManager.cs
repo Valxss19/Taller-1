@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI; // por si usas Image en corazones
 
 public class GameManager : MonoBehaviour
 {
@@ -14,6 +15,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] private GameObject menuPausa;
     [SerializeField] private GameObject menuVictoria;
     [SerializeField] private GameObject menuGameOver;
+    [SerializeField] private GameObject[] corazones; // <<< AÑADIDO: referencias a los corazones en la UI
 
     [Header("Ajustes iniciales")]
     [SerializeField] private float tiempoInicial = 60f;
@@ -80,7 +82,6 @@ public class GameManager : MonoBehaviour
     // MÉTODOS PÚBLICOS DE JUEGO (llamables por otros scripts)
     // =====================
 
-    // Añade N puntos (usado internamente)
     public void SumarPuntos(int cantidad)
     {
         puntos += cantidad;
@@ -100,42 +101,39 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    // Acceso rápido (script más simple llama a esto)
     public void SumarPunto()
     {
         SumarPuntos(1);
     }
 
-    // Sumar vida (positivo) — otros scripts pueden llamarlo
     public void SumarVida(int cantidad)
     {
         vidaActual += cantidad;
+        if (vidaActual > vidaInicial) vidaActual = vidaInicial;
+        ActualizarCorazones();
         Debug.Log("Vida aumentada: " + vidaActual);
     }
 
-    // Sumar tiempo (por muslito azul)
     public void SumarTiempo(float cantidad)
     {
         tiempoRestante += cantidad;
         Debug.Log("Tiempo añadido: +" + cantidad + "s (restante: " + Mathf.CeilToInt(tiempoRestante) + "s)");
     }
 
-    // Restar vida (trampas)
     public void RestarVida(int cantidad)
     {
         vidaActual -= cantidad;
+        ActualizarCorazones();
         Debug.Log("Vida actual: " + vidaActual);
         if (vidaActual <= 0) CambiarEstado(EstadoJuego.Derrota);
     }
 
-    // Recoger llave
     public void RecogerLlave()
     {
         tieneLlave = true;
         Debug.Log("Llave recogida");
     }
 
-    // Intentar pasar por la puerta
     public void LlegarPuerta()
     {
         if (tieneLlave)
@@ -148,19 +146,14 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    // Reinicia la escena (útil si quieres recargar todo)
     public void ReiniciarNivel()
     {
-        Time.timeScale = 1f; // asegurar que el tiempo vuelve a normal antes de recargar
+        Time.timeScale = 1f;
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
-    // =====================
-    // CONTROL DE ESTADO (switch central)
-    // =====================
     public void CambiarEstado(EstadoJuego nuevoEstado)
     {
-        // Apagar todos los menús (si existen)
         if (menuInicio) menuInicio.SetActive(false);
         if (menuPausa) menuPausa.SetActive(false);
         if (menuVictoria) menuVictoria.SetActive(false);
@@ -171,19 +164,17 @@ public class GameManager : MonoBehaviour
         switch (nuevoEstado)
         {
             case EstadoJuego.Inicio:
-                // Mostrar menú inicio
                 if (menuInicio) menuInicio.SetActive(true);
-                // dejar valores iniciales visibles (no cambiar internos)
                 break;
 
             case EstadoJuego.Jugando:
-                // Al comenzar partida, reestablecer valores iniciales
                 tiempoRestante = tiempoInicial;
                 vidaActual = vidaInicial;
                 puntos = 0;
                 tieneLlave = false;
                 if (obstaculo != null) obstaculo.SetActive(true);
                 if (menuInicio) menuInicio.SetActive(false);
+                ActualizarCorazones(); // <<< AÑADIDO: mostrar todos los corazones al iniciar
                 break;
 
             case EstadoJuego.Pausa:
@@ -200,13 +191,9 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    // =====================
-    // MÉTODOS PARA BOTONES UI (conectar en OnClick)
-    // =====================
     public void IniciarJuego() => CambiarEstado(EstadoJuego.Jugando);
     public void PausarJuego() => CambiarEstado(EstadoJuego.Pausa);
     public void ReanudarJuego() => CambiarEstado(EstadoJuego.Jugando);
-    // Reinicia internamente y vuelve a jugar desde cero
     public void ReintentarJuego()
     {
         CambiarEstado(EstadoJuego.Jugando);
@@ -217,11 +204,6 @@ public class GameManager : MonoBehaviour
         Application.Quit();
     }
 
-    // =====================
-    // MÉTODOS AUXILIARES (mantenidos por compatibilidad con otros scripts)
-    // =====================
-
-    // Resetea los valores internos sin cambiar automáticamente el estado visual (útil si quieres limpiar datos desde inspector)
     public void ResetearEstado()
     {
         tiempoRestante = tiempoInicial;
@@ -229,14 +211,25 @@ public class GameManager : MonoBehaviour
         puntos = 0;
         tieneLlave = false;
         if (obstaculo != null) obstaculo.SetActive(true);
+        ActualizarCorazones();
         Debug.Log("GameManager: estado reseteado");
     }
 
-    // =====================
-    // GETTERS
-    // =====================
     public float GetTiempo() => tiempoRestante;
     public int GetVida() => vidaActual;
     public int GetPuntos() => puntos;
     public bool TieneLlave() => tieneLlave;
+
+    // =====================
+    // MÉTODO NUEVO PARA LOS CORAZONES
+    // =====================
+    private void ActualizarCorazones()
+    {
+        if (corazones == null || corazones.Length == 0) return;
+
+        for (int i = 0; i < corazones.Length; i++)
+        {
+            corazones[i].SetActive(i < vidaActual);
+        }
+    }
 }
